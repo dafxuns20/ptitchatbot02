@@ -1,0 +1,16 @@
+'use strict';
+
+/**
+ * Auto load.
+ */
+require('./autoload');
+
+/**
+ * Database
+ */
+global.Models = require('./models/Models');
+
+/**
+ * Main app.
+ */
+require('./app/main');
